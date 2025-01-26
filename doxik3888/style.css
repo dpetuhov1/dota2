@@ -5,9 +5,12 @@
 
 .btn-container {
     display: flex;
-    margin: 5vh;
-    gap: 5vh;
+    margin: 3vh;
+    gap:0
 }
 .head_btn{
-    padding: 40px;
+    padding: 30px;
+    border-width: 0;
+    border-right: 3px;
+    border-right-color: black;
 }
