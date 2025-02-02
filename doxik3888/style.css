@@ -5,12 +5,69 @@
 
 .btn-container {
     display: flex;
-    margin: 3vh;
-    gap:0
+
+    gap:0;
+    background-color: rgba(128, 128, 128, 0.5);
+    
 }
 .head_btn{
     padding: 30px;
+    border-left: 0 ;
+    border-bottom: 0;
+    border-top: 0;
+    background-color: rgba(128, 128, 128, 0);
+
+    border-right-color: rgba(128, 128, 128, 0.2);
+}
+
+.dota{
+    padding: 1vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.question{
+
+}
+
+.about{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 3vh;
+}
+
+.roles{
+    background-color: lightgray;
+    width:75vw;
+    height: 70vh;
+    margin-left: 12.5vw ;
+    margin-bottom: 5vh;
+
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.btn-roles{
+    margin-top: 6vh ;
+    background-color: rgba(128, 128, 128, 0.2);
     border-width: 0;
-    border-right: 3px;
-    border-right-color: black;
+    width: 15vw ;
+    height: 5vh;
+}
+
+footer{
+    background-color: lightgray;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.foot{
+    color: gray;
+    margin-top: 9vh;
 }
