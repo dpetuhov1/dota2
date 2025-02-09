@@ -71,3 +71,45 @@ footer{
     color: gray;
     margin-top: 9vh;
 }
+
+.about-role{
+    padding: 2vw;
+    padding-right: 25vw ;
+}
+
+.btn-roles-cor{
+    margin-top: 6vh ;
+    background-color: rgba(128, 128, 128, 0.5);
+    border-width: 0;
+    width: 15vw ;
+    height: 5vh;
+}
+
+.btn-roles-mid{
+    margin-top: 6vh ;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-width: 0;
+    width: 15vw ;
+    height: 5vh;
+}
+
+.btn-roles-hard{
+    margin-top: 6vh ;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-width: 0;
+    width: 15vw ;
+    height: 5vh;
+}
+
+.btn-roles-sup{
+    margin-top: 6vh ;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-width: 0;
+    width: 15vw ;
+    height: 5vh;
+}
+
+.text{
+    width: 50vw;
+    height: 20vh;
+}
