@@ -5,32 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-    <header>
-        <button class="tomain-btn">На главную</button>
-    </header>
+    <script src="./scripts.js" defer></script>
 </head>
 <body>
-    <h1 class="meta">Метовые герои</h1>
+    <header>
+        <button class="btn-tomain">На главную</button>
+        <p class="meta">Метовые герои</p>
+    </header>
 <div class="roles">
-    <button class="role">Керри</button>
-    <button class="role">Мид</button>
-    <button class="role">Хард</button>
-    <button class="role">Саппорт</button>
-    <button class="role">Фулл-саппорт</button>
+    <button class="role btn-carry">Керри</button>
+    <button class="role btn-mid">Мид</button>
+    <button class="role btn-hard">Хард</button>
+    <button class="role btn-supp">Саппорт</button>
+    <button class="role btn-hard_supp">Фулл-саппорт</button>
 </div>
 <div class="heroes">
-    <img src="/main/imgs/lycan.png">
-    <button class="hero-btn">Lycan</button>
-    </img>
-    <img src="/main/imgs/invoker.png">
-    <button class="hero-btn">Invoker</button>
-    </img>
-    <img src="/main/imgs/lina.png">
-        <button class="hero-btn">Lina</button>
-    </img>
+    <button class="hero-btn" id="hero1">
+        <img src="/main/imgs/lycan.png" id="picture1"></img>
+    </button>
+    <button class="hero-btn" id="hero2">
+        <img src="/main/imgs/invoker.png" id="picture2"></img>
+    </button>
+    <button class="hero-btn" id="hero3">
+        <img src="/main/imgs/lina.png" id="picture3"></img>
+    </button>
 </div>
 <div class="heroes-info">
     <h1 class="hero-info">Герой</h1>
+
 </div>
 </body>
 </html>
