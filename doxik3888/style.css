@@ -1,6 +1,13 @@
 *{
     padding: 0;
     margin: 0;
+    color: rgba(255, 255, 255, 0.6);
+ 
+body{
+    background-color: #1c140c;
+
+}
+
 }
 
 .btn-container {
@@ -22,6 +29,12 @@
 
 .dota{
     padding: 1vw;
+    margin-top: 40%;
+    margin-bottom: 5vh;
+}
+
+.dota-2{
+    padding: 1vw;
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
@@ -37,7 +50,7 @@
 }
 
 .roles{
-    background-color: lightgray;
+    background-color: #241b14;
     width:75vw;
     height: 70vh;
     margin-left: 12.5vw ;
@@ -61,7 +74,7 @@
 }
 
 footer{
-    background-color: lightgray;
+    background-color: #241b14;
     height: 20vh;
     display: flex;
     justify-content: center;

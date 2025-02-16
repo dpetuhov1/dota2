@@ -7,6 +7,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <script src="scripts.js" defer></script>
+    <style>
+        video {
+            position: absolute; 
+            top: 0;
+            left: 0;
+            width: 100%; /* Устанавливаем ширину видео на 100% экрана */
+            height: 90%; /* Устанавливаем высоту видео на 100% экрана */
+            z-index: -1000;
+            object-fit: cover; /* Растягиваем видео чтобы покрыть весь элемент */
+            }
+    </style>
 </head>
 <header>
     <div class="btn-container">
@@ -16,10 +27,15 @@
 </header>
 <body>
     <div class="dota">
+        <video autoplay muted loop> 
+            <source src="ZqIFVTc8j80_1080p_FULL.mp4" type="video/mp4"> 
+            <!-- Дополнительные форматы видео, например, WebM или Ogg, можно добавить здесь-->
+        </video>
+    </iframe>
         <h1 class="question">Что такое Дота 2?</h1>
         <h2 class="about">Dota 2 — многопользовательская командная компьютерная игра в жанре MOBA, разработанная и изданная корпорацией Valve. Игра является продолжением DotA — пользовательской карты-модификации для игры Warcraft III: Reign of Chaos. Игра изображает сражение на карте особого вида; в каждом матче участвуют две команды по пять игроков, управляющих разными «героями» — персонажами с различными наборами способностей и характеристиками. Для победы в матче команда должна уничтожить особый объект — «крепость», принадлежащий вражеской стороне, и защитить от уничтожения собственную «крепость».</h2>
     </div>
-    <h1 class="dota">Роли и что они представляют</h1>
+    <h1 class="dota-2">Роли и что они представляют</h1>
     <div class="roles">
         <div class="btns">
             <button class="btn-roles-cor">Керри(1 поз.)</button>

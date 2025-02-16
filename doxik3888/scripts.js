@@ -3,6 +3,15 @@ let btn_roles_mid = document.querySelector(".btn-roles-mid")
 let btn_roles_hard = document.querySelector(".btn-roles-hard")
 let btn_roles_sup = document.querySelector(".btn-roles-sup")
 
+btn_roles_cor.addEventListener("mouseover", function(){
+    anime({
+        target: ".btn-roles-cor",
+        scale: 2,
+        duration: 1000,
+        easing: "linear"
+    })
+})
+
 btn_roles_mid.addEventListener("click", function(){
     document.getElementById("text").textContent = "На второй позиции чаще всего находится герой, наносящий преимущественно магический урон. Примеры — Lina, Necrophos, Puck. Вторая позиция стоит на миду (центральной линии) соло, чтобы быстро получить 6 уровень, прокачать ультимейт, начать гангать (приходить на другие линии с целью помочь команде сделать килл или снести вражескую вышку) и доминировать на карте. Шестой уровень мидер получает, как правило, на 5-7 минуте. После он либо сразу, либо под активную руну идет делать ганги или фармить лес (в зависимости от того, проиграл он мид или выиграл). Руна появляется через шесть минут после начала игры и далее каждые две минуты около центральной линии."
     btn_roles_mid.style.backgroundColor = "rgba(128, 128, 128, 0.5)"
