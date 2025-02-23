@@ -1,3 +1,5 @@
+AOS.init();
+
 let btn_roles_cor = document.querySelector(".btn-roles-cor")
 let btn_roles_mid = document.querySelector(".btn-roles-mid")
 let btn_roles_hard = document.querySelector(".btn-roles-hard")
@@ -5,12 +7,78 @@ let btn_roles_sup = document.querySelector(".btn-roles-sup")
 
 btn_roles_cor.addEventListener("mouseover", function(){
     anime({
-        target: ".btn-roles-cor",
-        scale: 2,
-        duration: 1000,
-        easing: "linear"
-    })
+        targets: '.btn-roles-cor',
+        scale: 1.15,
+        loop: false,
+        duration: 200,
+        easing: 'easeInOutQuad'
+      });
 })
+btn_roles_cor.addEventListener("mouseout", function(){
+    anime({
+        targets: '.btn-roles-cor',
+        scale: 1,
+        loop: false,
+        duration: 200,
+        easing: 'easeInOutQuad'
+      });
+})
+
+btn_roles_mid.addEventListener("mouseover", function(){
+    anime({
+        targets: '.btn-roles-mid',
+        scale: 1.15,
+        loop: false,
+        duration: 200,
+        easing: 'easeInOutQuad'
+      });
+})
+btn_roles_mid.addEventListener("mouseout", function(){
+    anime({
+        targets: '.btn-roles-mid',
+        scale: 1,
+        loop: false,
+        duration: 200,
+        easing: 'easeInOutQuad'
+      });
+})
+btn_roles_hard.addEventListener("mouseover", function(){
+    anime({
+        targets: '.btn-roles-hard',
+        scale: 1.15,
+        loop: false,
+        duration: 200,
+        easing: 'easeInOutQuad'
+      });
+})
+btn_roles_hard.addEventListener("mouseout", function(){
+    anime({
+        targets: '.btn-roles-hard',
+        scale: 1,
+        loop: false,
+        duration: 200,
+        easing: 'easeInOutQuad'
+      });
+})
+btn_roles_sup.addEventListener("mouseover", function(){
+    anime({
+        targets: '.btn-roles-sup',
+        scale: 1.15,
+        loop: false,
+        duration: 200,
+        easing: 'easeInOutQuad'
+      });
+})
+btn_roles_sup.addEventListener("mouseout", function(){
+    anime({
+        targets: '.btn-roles-sup',
+        scale: 1,
+        loop: false,
+        duration: 200,
+        easing: 'easeInOutQuad'
+      });
+})
+
 
 btn_roles_mid.addEventListener("click", function(){
     document.getElementById("text").textContent = "На второй позиции чаще всего находится герой, наносящий преимущественно магический урон. Примеры — Lina, Necrophos, Puck. Вторая позиция стоит на миду (центральной линии) соло, чтобы быстро получить 6 уровень, прокачать ультимейт, начать гангать (приходить на другие линии с целью помочь команде сделать килл или снести вражескую вышку) и доминировать на карте. Шестой уровень мидер получает, как правило, на 5-7 минуте. После он либо сразу, либо под активную руну идет делать ганги или фармить лес (в зависимости от того, проиграл он мид или выиграл). Руна появляется через шесть минут после начала игры и далее каждые две минуты около центральной линии."
