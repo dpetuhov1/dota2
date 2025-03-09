@@ -1,5 +1,12 @@
 AOS.init();
 
+
+let dima_btn = document.getElementById("to-dima")
+dima_btn.addEventListener("click", () => {
+    location.href = "../main/index.html"
+})
+
+
 let btn_roles_cor = document.querySelector(".btn-roles-cor")
 let btn_roles_mid = document.querySelector(".btn-roles-mid")
 let btn_roles_hard = document.querySelector(".btn-roles-hard")
