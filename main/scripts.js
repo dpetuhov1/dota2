@@ -1,3 +1,9 @@
+let me = document.getElementById("to-me")
+me.addEventListener("click", () => {
+    location.href = "../doxik3888/index.html"
+})
+
+
 let btn_mid = document.getElementById('btnmid')
 let btn_carry = document.getElementById('btncarry')
 let btn_hard = document.getElementById('btnhard')
@@ -9,9 +15,9 @@ let heroinfo = document.getElementById('abtherotext')
 let heroname = document.getElementById('heronametext')
 
 btn_mid.addEventListener("click", function(){
-    document.querySelector("#picture1").src = "/main/imgs/visage.png"
-    document.querySelector("#picture2").src = "/main/imgs/meepo.png"
-    document.querySelector("#picture3").src = "/main/imgs/dragonknight.png"
+    document.querySelector("#picture1").src = "./imgs/visage.png"
+    document.querySelector("#picture2").src = "./imgs/meepo.png"
+    document.querySelector("#picture3").src = "./imgs/dragonknight.png"
     document.querySelector('#heronametext').textContent  = 'Герой'
     document.querySelector('#abtherotext').textContent = 'Выберите героя'
     btn_mid.style.backgroundColor = "rgba(100, 100, 100, 1)"
@@ -41,9 +47,9 @@ btn_mid.addEventListener("click", function(){
     })
 })
 btn_carry.addEventListener("click", function(){
-    document.querySelector("#picture1").src = "/main/imgs/phantomassasin.png";
-    document.querySelector("#picture2").src = "/main/imgs/drowranger.png";
-    document.querySelector("#picture3").src = "/main/imgs/dragonknight.png";
+    document.querySelector("#picture1").src = "./imgs/phantomassasin.png";
+    document.querySelector("#picture2").src = "./imgs/drowranger.png";
+    document.querySelector("#picture3").src = "./imgs/dragonknight.png";
     document.querySelector('#heronametext').textContent  = 'Герой'
     document.querySelector('#abtherotext').textContent = 'Выберите героя'
     btn_carry.style.backgroundColor = "rgba(100, 100, 100, 1)";
@@ -73,9 +79,9 @@ btn_carry.addEventListener("click", function(){
     })
 })
 btn_hard.addEventListener("click", function(){
-    document.querySelector("#picture1").src = "/main/imgs/pudge.png";
-    document.querySelector("#picture2").src = "/main/imgs/axe.png";
-    document.querySelector("#picture3").src = "/main/imgs/dragonknight.png";
+    document.querySelector("#picture1").src = "./imgs/pudge.png";
+    document.querySelector("#picture2").src = "./imgs/axe.png";
+    document.querySelector("#picture3").src = "./imgs/dragonknight.png";
     document.querySelector('#heronametext').textContent  = 'Герой'
     document.querySelector('#abtherotext').textContent = 'Выберите героя'
     btn_hard.style.backgroundColor = "rgba(100, 100, 100, 1)";
@@ -105,9 +111,9 @@ btn_hard.addEventListener("click", function(){
     })
 })
 btn_supp.addEventListener("click", function(){
-    document.querySelector("#picture1").src = "/main/imgs/abaddon.png";
-    document.querySelector("#picture2").src = "/main/imgs/lich.png";
-    document.querySelector("#picture3").src = "/main/imgs/witchdoctor.png";
+    document.querySelector("#picture1").src = "./imgs/abaddon.png";
+    document.querySelector("#picture2").src = "./imgs/lich.png";
+    document.querySelector("#picture3").src = "./imgs/witchdoctor.png";
     document.querySelector('#heronametext').textContent  = 'Герой'
     document.querySelector('#abtherotext').textContent = 'Выберите героя'
     btn_supp.style.backgroundColor = "rgba(100, 100, 100, 1)";

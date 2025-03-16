@@ -1,4 +1,9 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('ofont.ru_Etude Noire.ttf') format('truetype'),
+}
 * {
+    font-family: 'MyCustomFont';
     padding: 0;
     margin: 0;
     color: white;
